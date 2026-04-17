@@ -1,0 +1,7 @@
+С помощью 
+nohup python3 main.py > log.txt 2>&1 &
+Ставим на *хостинг* на vps линкс сервере
+
+С помощью команды
+pkill -f "python3 main.py"
+Убиваем процесс
